@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Plane War</title>
+        <style media="screen">
+            canvas {
+                border: 1px black solid;
+            }
+        </style>
+        <!-- zz game 相关文件 -->
+        <script src='zzgame/utils.js'></script>
+        <script src='zzgame/mouse.js'></script>
+        <script src='zzgame/zz_game.js'></script>
+        <script src='zzgame/zz_scene.js'></script>
+        <script src='zzgame/zz_image.js'></script>
+        <script src='zzgame/zz_particle_system.js'></script>
+        <script src='zzgame/zz_label.js'></script>
+        <!-- 场景文件 -->
+        <script src='scene/main/Player.js'></script>
+        <script src='scene/main/Enemy.js'></script>
+        <script src='scene/main/Bullet.js'></script>
+        <script src='scene/main/scene.js'></script>
+        <!-- 结束和标题场景 -->
+        <script src='scene/end/scene_end.js'></script>
+        <script src='scene/title/scene_title.js'></script>
+        <!-- 关卡数据 -->
+    </head>
+    <body>
+        <canvas id="id-canvas" width="400" height="600"></canvas>
+        <div>
+            awsd 移动，j 发射子弹
+        </div>
+        <br>
+        <br>
+        FPS：
+        <input id=id-input-speed type="range" value="1">
+        <div class="">
+            <label>
+                <input class="zz-auto-slider"
+                       type="range"
+                       value="10"
+                       data-value="config.player_speed"
+                >
+                玩家速度：<span class="zz-label">10</span>
+            </label>
+        </div>
+        <div class="">
+            <label>
+                <input class="zz-auto-slider"
+                       type="range"
+                       value="10"
+                       data-value="config.player_life"
+                >
+                玩家血量：<span class="zz-label">10</span>
+            </label>
+        </div>
+        <div class="">
+            <label>
+                <input class="zz-auto-slider"
+                       type="range"
+                       value="5"
+                       data-value="config.enemyMaxSpeed"
+                       max="8"
+                >
+                敌机最快速度：<span class="zz-label">5</span>
+            </label>
+        </div>
+
+        <script src=main.js></script>
+    </body>
+</html>
