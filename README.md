@@ -17,8 +17,7 @@
 5. 游戏按 f 发射小球，ad 控制板块滑动，每打到一次砖块 100 分，分数到 1200 时自动进入下一关
 6. 游戏可以按 p 暂停，可以拖动小球位置，可以用 123 来选择前三关
 
-![图片](screenshot/newpaddle.gif)
-![dzk](screenshot/newpaddle1.gif)
+![图片](screenshot/paddle2.gif)
 
 ## Plane War
 本游戏包含三个基本场景和多个自调节设置，打开 console 可以看到更多信息
