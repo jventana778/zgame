@@ -35,6 +35,7 @@
 2. 可以调跳跃的高度和冷却时间
 
 ![dzk](screenshot/bird.gif)
+
 ![dzk](screenshot/bird2.gif)
 
 
